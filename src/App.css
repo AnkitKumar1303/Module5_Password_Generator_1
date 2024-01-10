@@ -1,38 +1,80 @@
-.App {
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://media.istockphoto.com/id/808424876/photo/password-input-field-with-padlock.webp?b=1&s=170667a&w=0&k=20&c=2OKRhMbVvex54hrzioGe_eSnZnRM8OdYj8bUZ2aa5pc='); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.app {
   text-align: center;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgba(11, 10, 10, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #dbc5c5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.password-options {
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label {
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  padding: 8px;
+  margin-right: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.password-display {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
 }
